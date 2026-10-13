@@ -19,7 +19,7 @@ public class Ejercicio3 {
         int op,n;
         Libro libros[] = null;
         
-        System.out.print("Ingrese el numero de libros a ingresar: ");
+        System.out.print("Ingrese el numero de libros a registar: ");
         n = sc.nextInt();
         sc.nextLine();
         
@@ -62,6 +62,8 @@ public class Ejercicio3 {
                     for (int i = 0; i < n; i++) {
                         libros[i].mostrarinfo();
                     }break;
+                case 5: 
+                    break;
                 default: 
                     System.out.println("OPCION INGRESADA NO VALIDA");break;
             }

@@ -35,10 +35,8 @@ public class Libro {
         if(estado.equalsIgnoreCase("prestado")){
             estado = "disponible";
             System.out.println("Libro devuelto con exito");
-        }else if(estado.equalsIgnoreCase("extraviado")){
-            System.out.println("Libro extraviado no se puede devolver");
         }else{
-            System.out.println("Libro sin devolver");
+            System.out.println("Libro nunca fue prestado");
         }
         
     }
